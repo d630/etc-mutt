@@ -4241,7 +4241,7 @@ source ~/.mutt/mutt-colors.muttrc
 
 ## -- compose-to-sender
 
-bind index,pager @ compose-to-sender
+#bind index,pager @ compose-to-sender
 
 # -- CRYPTO.
 
