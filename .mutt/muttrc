@@ -3250,7 +3250,7 @@ set ssl_ca_certificates_file="/etc/ssl/certs/ca-certificates.crt"
 #        The file containing a client certificate and its associ‐
 #        ated private key.
 #
-#ssl_force_tls
+set ssl_force_tls=no
 #        Type: boolean
 #        Default: no
 #
