@@ -3250,9 +3250,9 @@ set ssl_ca_certificates_file="/etc/ssl/certs/ca-certificates.crt"
 #        The file containing a client certificate and its associ‐
 #        ated private key.
 #
-set ssl_force_tls=no
+#ssl_force_tls
 #        Type: boolean
-#        Default: no
+#        Default: yes
 #
 #        If this variable is set, Mutt will require that all con‐
 #        nections to remote servers be encrypted. Furthermore  it
