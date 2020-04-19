@@ -4217,7 +4217,7 @@ bind pager "|" pipe-message
 
 # -- MACROS.
 
-macro browser "u" "<shell-escape>imapfilter-localhost-action<enter>" "delete and move messages and mailboxes"
+macro browser "u" "<shell-escape>run-imapfilter localhost-action<enter>" "delete and move messages and mailboxes"
 macro compose "a" "<attach-file><tab><enter>" "change-folder and toggle mailboxes"
 macro index "<left>" "<enter-command>push c<enter>" "Invoke key c"
 macro index "h" "<enter-command>push c<enter>" "Invoke key c"
